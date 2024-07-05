@@ -1,33 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* custom css  */
+/* services  */
+.service-shadow {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.16);
+}
+/* slider  */
+.splide__arrows {
+  display: none !important;
+  /* background-color: red !important; */
+}
+.splide__pagination {
+  position: absolute;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* scroll  */
+html {
+  scroll-behavior: smooth;
 }
-
+/* fonts  */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* You can also create specific classes if needed */
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-georgia {
+  font-family: "Georgia", serif;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+/* footer  */
+.white-text {
+  color: white !important;
+}
+.font-weight-400 {
+  font-weight: 300 !important;
 }
