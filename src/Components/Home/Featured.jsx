@@ -13,7 +13,7 @@ export default function Featured() {
   const properties = [
     {
       id: 1,
-      image: "https://i.ibb.co/TTTGkjP/Rectangle-149-2.png",
+      image: "/Images/Featured/Featured_image1.webp",
       address: "45/A, Kennedy Road, NY",
       price: "$23,20,545",
       beds: 3,
@@ -25,7 +25,7 @@ export default function Featured() {
     },
     {
       id: 2,
-      image: "https://i.ibb.co/tCm1WBq/Rectangle-149-1.png",
+      image: "/Images/Featured/Featured_image2.webp",
       address: "45/A, Kennedy Road, NY",
       price: "$2,406",
       beds: 3,
@@ -37,7 +37,7 @@ export default function Featured() {
     },
     {
       id: 3,
-      image: "https://i.ibb.co/zZHQbqn/Rectangle-149.png",
+      image: "/Images/Featured/Featured_image3.webp",
       address: "45/A, Kennedy Road, NY",
       price: "$10,545",
       beds: 3,
@@ -52,7 +52,7 @@ export default function Featured() {
   return (
     <section
       className="max-w-[1420px] overflow-hidden mx-auto py-32 lg:py-[210px] px-4"
-      id="featured-listings"
+      id="listing"
     >
       <div className="text-center mb-20">
         <h1
@@ -97,7 +97,7 @@ export default function Featured() {
               <div className="mb-2 flex justify-between border border-x-0 py-2 border-secondary font-montserrat">
                 <p className="flex items-center gap-2 text-lg md:text-xl font-normal">
                   <Image
-                    src="https://i.ibb.co/0V2MPMy/image-37.png"
+                    src="/Images/Featured/bed.webp"
                     alt="bed"
                     height="24"
                     width="24"
@@ -106,7 +106,7 @@ export default function Featured() {
                 </p>
                 <p className="flex items-center gap-2 text-lg md:text-xl font-normal">
                   <Image
-                    src="https://i.ibb.co/k8TGbCQ/image-38.png"
+                    src="/Images/Featured/bath.webp"
                     alt="bath"
                     height="24"
                     width="24"
@@ -115,7 +115,7 @@ export default function Featured() {
                 </p>
                 <p className="flex items-center gap-2 text-lg md:text-xl font-normal">
                   <Image
-                    src="https://i.ibb.co/G9fKc6x/image-39.png"
+                    src="/Images/Featured/measurement.webp"
                     alt="area"
                     height="24"
                     width="24"

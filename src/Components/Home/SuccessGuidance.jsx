@@ -1,17 +1,13 @@
-"use client";
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function SuccessGuidance() {
-  React.useEffect(() => {
-    AOS.init({ duration: 1200 }); // Initialize AOS with a duration of 1200ms
-  }, []);
-
   return (
-    <section className="max-w-[1420px] overflow-hidden py-32 lg:py-[218px] mx-auto px-4">
+    <section
+      id="guideline"
+      className="max-w-[1420px] overflow-hidden py-32 lg:py-[180px] mx-auto px-4"
+    >
       {/* Header section */}
       <header className="text-center mb-20">
         <h1
@@ -29,7 +25,7 @@ export default function SuccessGuidance() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 shadow  items-center gap-16 lg:gap-0">
+      <div className="grid grid-cols-1   items-center gap-16 lg:gap-0">
         {/* 1st card */}
         {/* flex lg:flex-none flex-col-reverse lg:grid grid-cols-2 */}
         <div className="flex lg:grid grid-cols-2  justify-between   flex-col ">
@@ -38,7 +34,7 @@ export default function SuccessGuidance() {
             data-aos="fade-right" // AOS animation for the left side
           >
             <Image
-              src="https://i.ibb.co/X7LPkHd/Rectangle-152.png"
+              src="/Images/Guidance/blog1_thumbnail.webp"
               height="618"
               width="710"
               alt="Buying Home Guide"
@@ -99,7 +95,7 @@ export default function SuccessGuidance() {
             data-aos="fade-left"
           >
             <Image
-              src="https://i.ibb.co/Mn04dwb/Rectangle-152-3.png"
+              src="/Images/Guidance/blog2_thumbnail.webp"
               height="618"
               width="710"
               alt="Buying Home Guide"

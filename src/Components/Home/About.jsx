@@ -1,18 +1,11 @@
-"use client";
 import Image from "next/image";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 
 export default function About() {
-  useEffect(() => {
-    AOS.init({ duration: 1200 });
-  }, []);
-
   return (
     <section
-      className="max-w-[1420px] overflow-hidden mx-auto py-32 lg:py-[218px] "
-      id="about"
+      className="max-w-[1420px] overflow-hidden mx-auto py-32 lg:py-[180px] "
+      id="aboutme"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-24 lg:gap-x-10 mx-4">
         <div>
@@ -22,7 +15,7 @@ export default function About() {
               height="624"
               width="527"
               className=""
-              src="https://i.ibb.co/dg8kg97/Rectangle-144.png"
+              src="/Images/About/color_plate.webp"
               alt="Owner Image"
             />
             {/* Secondary Image */}
@@ -30,7 +23,7 @@ export default function About() {
               height="624"
               width="527"
               className="absolute top-4 left-4"
-              src="https://i.ibb.co/gmtGJg2/Rectangle-145.png"
+              src="/Images/About/me.webp"
               alt="Owner Image"
             />
           </div>

@@ -7,22 +7,22 @@ import Image from "next/image";
 
 const reviews = [
   {
-    image: "https://i.ibb.co/n6zBPND/Rectangle-151.png",
+    image: "/Images/Testimonial/user1.webp",
     text: "As a first-time homebuyer, I was nervous about the whole process, but Alan Stephen provided expert guidance every step of the way. Their knowledge and patience made all the difference. Thank you!",
     author: "John & Emily S.",
   },
   {
-    image: "https://i.ibb.co/n6zBPND/Rectangle-151.png",
+    image: "/Images/Testimonial/user1.webp",
     text: "Working With Alan Stephen Was An Absolute Pleasure. They Made The Process Of Selling Our Home Seamless And Stress-Free, Securing Us An Excellent Price In Record Time. Highly Recommend!",
     author: "Michael R.",
   },
   {
-    image: "https://i.ibb.co/n6zBPND/Rectangle-151.png",
+    image: "/Images/Testimonial/user1.webp",
     text: "Alan Stephen Went Above And Beyond To Help Us Find Our Dream Home. Their Attention To Detail And Dedication Were Unmatched. We Couldn't Be Happier With The Service We Received!",
     author: "Linda K",
   },
   {
-    image: "https://i.ibb.co/n6zBPND/Rectangle-151.png",
+    image: "/Images/Testimonial/user1.webp",
     text: "I Had A Fantastic Experience With Alan Stephen. Their Market Expertise And Negotiation Skills Helped Me Get A Great Deal On A Beautiful Property. I Would Definitely Work With Them Again In The Future.",
     author: "Patricio M",
   },
@@ -69,7 +69,7 @@ export default function Testimonial() {
     ));
 
   return (
-    <div className="max-w-[1420px] overflow-hidden py-32 lg:py-[218px] mx-auto">
+    <div className="max-w-[1420px] overflow-hidden py-32 lg:py-[180px] mx-auto">
       <div className="text-center mb-8">
         <h1
           data-aos="zoom-in"

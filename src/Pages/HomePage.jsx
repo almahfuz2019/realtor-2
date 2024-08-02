@@ -12,22 +12,22 @@ export default function HomePage() {
   return (
     <div>
       <a
-        href="your-target-page.html"
+        href="#home"
         class="fixed bottom-0 right-0 mb-4 mr-4 z-50"
       >
         <Image
           height="60"
           width="60"
-          src="https://i.ibb.co/Z1hgg8v/Frame-550-1.png"
+          src="/Images/up_arrow.webp"
           alt="Navigation Image"
-          className="relative  animate-bounce h-[32px] w-auto lg:h-auto"
+          className="relative  h-[46px] w-auto md:h-auto"
         />
       </a>
       <Hero />
       <About />
       <div>
         <Image
-          src="https://i.ibb.co/2SD3x9L/Line-25.png"
+          src="/Images/line.webp"
           width="1920"
           height="15"
           alt="line"
@@ -37,7 +37,7 @@ export default function HomePage() {
       <Services />
       <div>
         <Image
-          src="https://i.ibb.co/2SD3x9L/Line-25.png"
+          src="/Images/line.webp"
           width="1920"
           height="15"
           alt="line"
@@ -48,7 +48,7 @@ export default function HomePage() {
       <Contact />
       <div>
         <Image
-          src="https://i.ibb.co/2SD3x9L/Line-25.png"
+          src="/Images/line.webp"
           width="1920"
           height="15"
           alt="line"
@@ -58,7 +58,7 @@ export default function HomePage() {
       <Testimonial />
       <div>
         <Image
-          src="https://i.ibb.co/2SD3x9L/Line-25.png"
+          src="/Images/line.webp"
           width="1920"
           height="15"
           alt="line"

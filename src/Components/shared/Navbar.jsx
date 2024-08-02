@@ -20,7 +20,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className=" bg-transparent relative z-10 ">
+    <div id="home" className=" bg-transparent relative z-10 ">
       <div className="navbar   z-50 text-secondary max-w-[1420px] mx-auto pt-5 font-montserrat px-4">
         <div className="navbar-start">
           <a href="#home">
@@ -28,14 +28,14 @@ export default function Navbar() {
               className="hidden md:block"
               height="72"
               width="116"
-              src="https://i.ibb.co/jTPYyhs/Group-162-1.png"
+              src="/Images/Home/logo.png"
               alt="Tech Plato Logo"
             />
             <Image
               height="36"
               width="58"
               className="block md:hidden"
-              src="https://i.ibb.co/R776pwf/Group-192.png"
+              src="/Images/Home/logo_for_phone.png"
               alt="Tech Plato Logo"
             />
           </a>
@@ -64,9 +64,12 @@ export default function Navbar() {
         <div className="navbar-end flex">
           <ul className="menu menu-horizontal px-1 hidden lg:flex">
             <li>
-              <a href="#" className="text-secondary text-xl">
+              <a
+                href="https://www.facebook.com"
+                className="text-secondary text-xl"
+              >
                 <Image
-                  src="https://i.ibb.co/RcgMwDm/Frame-456.png"
+                  src="/Images/Home/facebook.webp"
                   height="32"
                   width="32"
                   alt="facebook"
@@ -74,9 +77,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-secondary text-xl">
+              <a href="https://twitter.com" className="text-secondary text-xl">
                 <Image
-                  src="https://i.ibb.co/NS9qWnT/Frame-457.png"
+                  src="/Images/Home/twitter.webp"
                   height="32"
                   width="32"
                   alt="twitter"
@@ -84,9 +87,12 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-secondary text-xl">
+              <a
+                href="https://www.instagram.com"
+                className="text-secondary text-xl"
+              >
                 <Image
-                  src="https://i.ibb.co/zs4RCS5/Frame-458.png"
+                  src="/Images/Home/instagram.webp"
                   height="32"
                   width="32"
                   alt="instagram"

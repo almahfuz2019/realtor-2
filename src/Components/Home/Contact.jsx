@@ -25,18 +25,16 @@ const Contact = () => {
     console.log(data);
     setSuccessMessage("Message sent successfully!");
     reset(); // Reset the form
-    setTimeout(() => setSuccessMessage(""), 5000); // Clear success message after 5 seconds
+    setTimeout(() => setSuccessMessage(""), 3000); // Clear success message after 5 seconds
   };
 
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-center py-32 px-4 lg:py-[218px] mb-32 lg:mb-[218px] flex items-center justify-center"
-      style={{
-        backgroundImage: "url(https://i.ibb.co/kQYFkc8/Rectangle-132.png)",
-      }}
+      className="relative overflow-hidden bg-cover bg-center py-32 px-4 lg:py-[180px] mb-32 lg:mb-[180px] flex items-center justify-center"
+      style={{ backgroundImage: `url('/Images/Contact/background.png')` }}
       id="contact"
     >
-      <div className="rounded-lg max-w-[1520px] mx-auto flex justify-between items-center">
+      <div className="rounded-lg max-w-[1420px] mx-auto flex justify-between items-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 lg:gap-40 items-center justify-between">
           {/* Text */}
           <div className="text-center" data-aos="fade-up">
@@ -52,7 +50,7 @@ const Contact = () => {
               </a>
               <a
                 href="#"
-                className="sm:w-auto rounded-md lg:rounded-xl bg-white px-4 md:px-8 py-2 md:py-4 text-lg md:text-2xl font-medium md:font-semibold text-secondary shadow hover:bg-blue-900 hover:text-white focus:outline-none focus:ring active:bg-blue-900 hover:shadow-md font-open-sans"
+                className="sm:w-auto rounded-md lg:rounded-xl bg-white px-4 md:px-8 py-2 md:py-4 text-lg md:text-2xl font-medium md:font-semibold text-secondary shadow hover:bg-gray-100  focus:outline-none focus:ring active:bg-gray-100  hover:shadow-md font-open-sans"
               >
                 Contact Us
               </a>
@@ -71,12 +69,12 @@ const Contact = () => {
               className="space-y-8 text-lg font-normal font-montserrat"
               onSubmit={handleSubmit(onSubmit)}
             >
-              <div className="md:flex md:space-x-4  space-y-8">
+              <div className="md:flex md:space-x-4  ">
                 <input
                   {...register("name", { required: "Name is required" })}
                   placeholder="Name"
                   className="md:w-1/2 w-full p-2 bg-transparent border-b border-white text-white focus:outline-none placeholder-white"
-                />
+                />{" "}
                 <input
                   {...register("address", { required: "Address is required" })}
                   placeholder="Address"

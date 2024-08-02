@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-16 text-white">
           {/* Contact Information */}
           <section data-aos="fade-right">
-            <h6 className=" font-semibold sm:text-4xl text-3xl lg:text-4xl font-georgia lg:mb-10 md:mb-7 mb-6">
+            <h6 className=" font-semibold sm:text-4xl text-3xl lg:text-4xl font-georgia  md:mb-4 mb-3">
               Robert Pattinson
             </h6>
             <p className="text-xl font-weight-400 text-[#FFFFFFCC]">
@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="mt-5 flex flex-col gap-4">
               <div className="flex items-center gap-x-4">
                 <Image
-                  src="https://i.ibb.co/0fB4qL5/Frame-456-1.png"
+                  src="/Images/Footer/call.webp"
                   height="32"
                   width="32"
                   alt="Phone"
@@ -37,7 +37,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-x-4">
                 <Image
-                  src="https://i.ibb.co/6Wm0DmD/Frame-458-1.png"
+                  src="/Images/Footer/email.webp"
                   height="32"
                   width="32"
                   alt="Email"
@@ -46,7 +46,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-x-4">
                 <Image
-                  src="https://i.ibb.co/Xb9xQJL/Frame-534.png"
+                  src="/Images/Footer/location.webp"
                   height="32"
                   width="32"
                   alt="Address"
@@ -68,19 +68,28 @@ export default function Footer() {
               Home
             </a>
             <a
-              href="#"
+              href="#aboutme"
               className="block text-2xl font-weight-400 text-white mb-2"
             >
               About Me
             </a>
             <a
-              href="#"
+              href="#services"
               className="block text-2xl font-weight-400 text-white mb-2"
             >
-              Jobs
+              Services
             </a>
-            <a href="#" className="block text-2xl font-weight-400 text-white">
-              Press Kit
+            <a
+              href="#listing"
+              className="block text-2xl font-weight-400 text-white mb-2"
+            >
+              Featured Listing
+            </a>
+            <a
+              href="#contact"
+              className="block text-2xl font-weight-400 text-white"
+            >
+              Contact Us
             </a>
           </section>
 
@@ -91,17 +100,20 @@ export default function Footer() {
             </h6>
             <a
               href="#"
-              className="block text-2xl font-weight-400 text-white mb-2"
+              className="block cursor-not-allowed text-2xl font-weight-400 text-white mb-2"
             >
               Terms of Use
             </a>
             <a
               href="#"
-              className="block text-2xl font-weight-400 text-white mb-2"
+              className="block  cursor-not-allowed text-2xl font-weight-400 text-white mb-2"
             >
               Privacy Policy
             </a>
-            <a href="#" className="block text-2xl font-weight-400 text-white">
+            <a
+              href="#"
+              className="block  cursor-not-allowed text-2xl font-weight-400 text-white"
+            >
               Cookie Policy
             </a>
           </section>
@@ -115,7 +127,7 @@ export default function Footer() {
             <li>
               <a href="#" className="text-secondary text-xl">
                 <Image
-                  src="https://i.ibb.co/RcgMwDm/Frame-456.png"
+                  src="/Images/Footer/facebook.webp"
                   height="32"
                   width="32"
                   alt="Facebook"
@@ -125,7 +137,7 @@ export default function Footer() {
             <li>
               <a href="#" className="text-secondary text-xl">
                 <Image
-                  src="https://i.ibb.co/NS9qWnT/Frame-457.png"
+                  src="/Images/Footer/twitter.webp"
                   height="32"
                   width="32"
                   alt="Twitter"
@@ -135,7 +147,7 @@ export default function Footer() {
             <li>
               <a href="#" className="text-secondary text-xl">
                 <Image
-                  src="https://i.ibb.co/zs4RCS5/Frame-458.png"
+                  src="/Images/Footer/instgram.webp"
                   height="32"
                   width="32"
                   alt="Instagram"

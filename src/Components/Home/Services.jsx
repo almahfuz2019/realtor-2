@@ -1,19 +1,11 @@
-"use client";
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 
 export default function Services() {
-  // Initialize AOS for animations
-  useEffect(() => {
-    AOS.init({ duration: 1200 });
-  }, []);
-
   return (
     <section
-      className="max-w-[1420px] overflow-hidden mx-auto py-32 lg:py-[218px] px-4"
+      className="max-w-[1420px] overflow-hidden mx-auto py-32 lg:py-[180px] px-4"
       id="services"
     >
       <div className="text-center mb-20">
@@ -35,7 +27,7 @@ export default function Services() {
         <div className="flex flex-col lg:flex-row" data-aos="fade-right">
           <div className="lg:w-1/2">
             <Image
-              src="https://i.ibb.co/4fLKmXN/Rectangle-147.png"
+              src="/Images/Services/Service_image1.webp"
               height="566"
               width="710"
               className="w-full bg-cover"
@@ -70,7 +62,7 @@ export default function Services() {
         >
           <div className="lg:w-1/2">
             <Image
-              src="https://i.ibb.co/6gDh298/Rectangle-147-1.png"
+              src="/Images/Services/Service_image2.webp"
               height="566"
               width="710"
               className="w-full bg-cover"
@@ -102,7 +94,7 @@ export default function Services() {
         <div className="flex flex-col lg:flex-row" data-aos="fade-right">
           <div className="lg:w-1/2">
             <Image
-              src="https://i.ibb.co/M5rF2sz/Rectangle-147-2.png"
+              src="/Images/Services/Service_image3.webp"
               height="566"
               width="710"
               className="w-full bg-cover"
@@ -113,7 +105,7 @@ export default function Services() {
             className="flex flex-col justify-center items-start gap-6 p-6 lg:p-24 sm:p-x-10 sm:py-16 lg:w-1/2"
             data-aos="fade-left"
           >
-            <h2 className="font-bold text-3xl sm:text-4xl text-3xl text-primary font-georgia">
+            <h2 className="font-bold text-3xl sm:text-4xl  text-primary font-georgia">
               Sell Your Property
             </h2>
             <p className="md:text-justify text-lg md:text-xl font-normal text-secondary font-montserrat">
@@ -137,7 +129,7 @@ export default function Services() {
         >
           <div className="lg:w-1/2">
             <Image
-              src="https://i.ibb.co/Y7pXSy8/Rectangle-147-3.png"
+              src="/Images/Services/Service_image4.webp"
               height="566"
               width="710"
               className="w-full bg-cover rounded-r-2xl rounded-t-none"
@@ -148,7 +140,7 @@ export default function Services() {
             className="flex flex-col justify-center items-start gap-6 p-6 lg:p-24 sm:p-x-10 sm:py-16 lg:w-1/2"
             data-aos="fade-left"
           >
-            <h2 className="font-bold text-3xl sm:text-4xl text-3xl text-primary font-georgia">
+            <h2 className="font-bold sm:text-4xl text-3xl text-primary font-georgia">
               Sell Your Property
             </h2>
             <p className="md:text-justify text-lg md:text-xl font-normal text-secondary font-montserrat">
